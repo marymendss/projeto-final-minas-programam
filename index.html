@@ -1,8 +1,143 @@
-<html>
-    <head>
-
-    </head>
-    <body>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InDecor</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>People&Future</h2>
+        <p class="about-event">
+          Uma plataforma que te ajudara a entrar na universidade
+        </p>
+        <p>Data de confirmação:</p>
+        <p class="event-date">Segunda, 28 de Janeiro, a partir das 9h</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber essa oportunidade</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Sua renda percapta</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="Um sálario minimo ">Até um sálario minimo</option>
+              <option value="Acima de um sálario mínimo até 1800">Acima de um sálario mínimo até 1800</option>
+              <option value="">Acima de 1800</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2>O que você vai ter acesso:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+           CRONOGRAMAS
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            MATERIAIS DIDÁTICOS.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            ESTRATÉGIAS PARA AS PROVAS
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      </div>
+      <div id="about-location">
+        <h3>Você é importante</h3>
+        <p>
+            Sabemos como as minorias sociais não têm as mesmas oportunidades e alcances que a massa rica e branca têm.
+            Em 2015, pretos, pobres e estudantes oriundos da escola pública representavam 6 a cada 100 alunos do ensino superior. Mas esta tendência não só piorou, como houve um retrocesso, e a proporção de alunos mais pobres caiu para 5 a cada 100 em 2019.
+            O ensino superior brasileiro sempre foi elitizado e ocupado majoritariamente por pessoas de maior poder aquisitivo.
+            Neste projeto pretendemos mudar essa realidade e transformar a vida dessas pessoas, disponibilizando acessibilidade e perspectiva para elas.
+            .
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/hrz-3.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Conheça mais sobre o que você terá acesso:</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>Materiais de apoio</h3>
+          <ul>
+            <li>Apostilas</li>
+            <li>video-aulas</li>
+            <li>Cronogramas</li>
+            <li>Organização</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+        <img src="http://c.files.bbci.co.uk/F41B/production/_100119426_gettyimages-492198113.jpg" alt="" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="https://www.napratica.org.br/wp-content/uploads/2021/02/mentoria-jovens-negros-fundacao-estudar-id_br-696x464.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Conhecimento de prova</h3>
+          <ul>
+            <li>Estratégias de prova</li>
+            <li>Simulados</li>
+            <li>Meios de entrada na faculdade</li>
+            <li>Métodos de estudos</li>
+            <li>O que as provas cobram e como funcionam</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se inscreva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>People&Future</h3>
+      <p>É possível mudar o mundo</p>
+      <p><span>Entre em contato:</span>marycarvmendes@gmail.com</p>
+      <p><span>Ou pelo telefone:</span> (55)99990-9999</p>
+    </footer>
+  </body>
 </html>
